@@ -1,4 +1,4 @@
-module.exports = coolEach;
+module.exports = Array.prototype.each = coolEach;
 function coolEach(callback){
   var i=0,
   length = this.length;

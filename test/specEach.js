@@ -6,11 +6,7 @@ should = chai.should(),
 expect = chai.expect;
 
 describe('cool Each', function () {
-  before(function(done){
-    Array.prototype.each = coolEach;
-    done();
-  });
-  
+    
   it('should be a function', function (done) {
     coolEach.should.be.a('function');
     done();
