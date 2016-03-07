@@ -1,5 +1,6 @@
 /*global describe, it, before, after*/
 var coolWhere = require('../cool-stuff/coolWhere.js'),
+
 chai = require('chai'),
 sinon = require('sinon'),
 should = chai.should(),
